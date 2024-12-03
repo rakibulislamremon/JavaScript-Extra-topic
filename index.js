@@ -13,4 +13,21 @@ var Econ=[5,15,4,8,78,55,34];
 //array Indexof method 
 var Econ=[5,15,4,8,78,55,34];
     var result= Econ.indexOf(34);
-console.log(result)
+//console.log(result)
+
+
+// Array Reverse method
+var Econ=[5,15,4,8,78,55,34];
+    var result=Econ.reverse();
+//console.log(result)
+
+//Array push method
+var Econ=[5,15,4,8,78,55,34];
+        Econ.push(51,65,78)
+//console.log(Econ)
+
+//Array Pop method 
+var Econ=[5,15,4,8,78,55,34];
+Econ.pop()
+Econ.pop()
+console.log(Econ)
