@@ -46,3 +46,12 @@ var res=arr.sort();
 var arr=[5,10,15,20,30,50];
 var res=arr.sort().reverse();
 //console.log(res)
+
+//Array splice method
+var arr=[5,10,15,20,30,50]; 
+arr.splice(3,2)  //remove korar jonnu
+//console.log(arr)
+
+var arr=[5,10,15,20,30,50];
+arr.splice(3,0,23);  //add korar jonnu
+//console.log(arr)
