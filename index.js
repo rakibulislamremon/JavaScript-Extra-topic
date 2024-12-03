@@ -30,4 +30,19 @@ var Econ=[5,15,4,8,78,55,34];
 var Econ=[5,15,4,8,78,55,34];
 Econ.pop()
 Econ.pop()
-console.log(Econ)
+//console.log(Econ)
+
+//Array slice method
+var arr=[5,10,15,20,30,50];
+var res=arr.slice(1,3);
+//console.log(res)
+
+//Array slice method small to big
+var arr=[5,10,15,20,30,50];
+var res=arr.sort();
+//console.log(res)
+
+//Array slice method big to small
+var arr=[5,10,15,20,30,50];
+var res=arr.sort().reverse();
+console.log(res)
