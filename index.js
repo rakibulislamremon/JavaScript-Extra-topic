@@ -45,4 +45,4 @@ var res=arr.sort();
 //Array slice method big to small
 var arr=[5,10,15,20,30,50];
 var res=arr.sort().reverse();
-console.log(res)
+//console.log(res)
